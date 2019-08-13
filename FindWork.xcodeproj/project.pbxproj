@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6685C04010202DD68D5CE3B3 /* libPods-FindWork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9747E29F134CE4FD93FF2F83 /* libPods-FindWork.a */; };
+		CB92B3242301515500F3F5A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB92B3232301515500F3F5A3 /* AppDelegate.m */; };
+		CB92B32C2301515600F3F5A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB92B32B2301515600F3F5A3 /* Assets.xcassets */; };
+		CB92B32F2301515600F3F5A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB92B32D2301515600F3F5A3 /* LaunchScreen.storyboard */; };
+		CB92B3322301515600F3F5A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB92B3312301515600F3F5A3 /* main.m */; };
+		CB92B33C2301515600F3F5A3 /* FindWorkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB92B33B2301515600F3F5A3 /* FindWorkTests.m */; };
+		CB92B3472301515600F3F5A3 /* FindWorkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB92B3462301515600F3F5A3 /* FindWorkUITests.m */; };
+		CB92B3632302A94100F3F5A3 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB92B3602302A94100F3F5A3 /* HomeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB92B3382301515600F3F5A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB92B3172301515500F3F5A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB92B31E2301515500F3F5A3;
+			remoteInfo = FindWork;
+		};
+		CB92B3432301515600F3F5A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB92B3172301515500F3F5A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB92B31E2301515500F3F5A3;
+			remoteInfo = FindWork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5828FADE2B18A1DF0E7572A8 /* Pods-FindWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindWork.release.xcconfig"; path = "Target Support Files/Pods-FindWork/Pods-FindWork.release.xcconfig"; sourceTree = "<group>"; };
+		9747E29F134CE4FD93FF2F83 /* libPods-FindWork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FindWork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B39A41AA5DF79F761653D76 /* Pods-FindWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindWork.debug.xcconfig"; path = "Target Support Files/Pods-FindWork/Pods-FindWork.debug.xcconfig"; sourceTree = "<group>"; };
+		CB92B31F2301515500F3F5A3 /* FindWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB92B3222301515500F3F5A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB92B3232301515500F3F5A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB92B32B2301515600F3F5A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB92B32E2301515600F3F5A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB92B3302301515600F3F5A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB92B3312301515600F3F5A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB92B3372301515600F3F5A3 /* FindWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB92B33B2301515600F3F5A3 /* FindWorkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindWorkTests.m; sourceTree = "<group>"; };
+		CB92B33D2301515600F3F5A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB92B3422301515600F3F5A3 /* FindWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB92B3462301515600F3F5A3 /* FindWorkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindWorkUITests.m; sourceTree = "<group>"; };
+		CB92B3482301515600F3F5A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB92B3602302A94100F3F5A3 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		CB92B3612302A94100F3F5A3 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB92B31C2301515500F3F5A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6685C04010202DD68D5CE3B3 /* libPods-FindWork.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB92B3342301515600F3F5A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB92B33F2301515600F3F5A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3ED1C219B99A846609DB2968 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B39A41AA5DF79F761653D76 /* Pods-FindWork.debug.xcconfig */,
+				5828FADE2B18A1DF0E7572A8 /* Pods-FindWork.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B05C260B06B463031D5BC892 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9747E29F134CE4FD93FF2F83 /* libPods-FindWork.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB92B3162301515500F3F5A3 = {
+			isa = PBXGroup;
+			children = (
+				CB92B3212301515500F3F5A3 /* FindWork */,
+				CB92B33A2301515600F3F5A3 /* FindWorkTests */,
+				CB92B3452301515600F3F5A3 /* FindWorkUITests */,
+				CB92B3202301515500F3F5A3 /* Products */,
+				3ED1C219B99A846609DB2968 /* Pods */,
+				B05C260B06B463031D5BC892 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CB92B3202301515500F3F5A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB92B31F2301515500F3F5A3 /* FindWork.app */,
+				CB92B3372301515600F3F5A3 /* FindWorkTests.xctest */,
+				CB92B3422301515600F3F5A3 /* FindWorkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB92B3212301515500F3F5A3 /* FindWork */ = {
+			isa = PBXGroup;
+			children = (
+				CB92B3222301515500F3F5A3 /* AppDelegate.h */,
+				CB92B3232301515500F3F5A3 /* AppDelegate.m */,
+				CB92B35E2302A94100F3F5A3 /* Classes */,
+				CB92B32B2301515600F3F5A3 /* Assets.xcassets */,
+				CB92B32D2301515600F3F5A3 /* LaunchScreen.storyboard */,
+				CB92B3302301515600F3F5A3 /* Info.plist */,
+				CB92B3312301515600F3F5A3 /* main.m */,
+			);
+			path = FindWork;
+			sourceTree = "<group>";
+		};
+		CB92B33A2301515600F3F5A3 /* FindWorkTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB92B33B2301515600F3F5A3 /* FindWorkTests.m */,
+				CB92B33D2301515600F3F5A3 /* Info.plist */,
+			);
+			path = FindWorkTests;
+			sourceTree = "<group>";
+		};
+		CB92B3452301515600F3F5A3 /* FindWorkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB92B3462301515600F3F5A3 /* FindWorkUITests.m */,
+				CB92B3482301515600F3F5A3 /* Info.plist */,
+			);
+			path = FindWorkUITests;
+			sourceTree = "<group>";
+		};
+		CB92B35E2302A94100F3F5A3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CB92B35F2302A94100F3F5A3 /* HomePage */,
+				CB92B3622302A94100F3F5A3 /* Mine */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CB92B35F2302A94100F3F5A3 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				CB92B3602302A94100F3F5A3 /* HomeViewController.m */,
+				CB92B3612302A94100F3F5A3 /* HomeViewController.h */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		CB92B3622302A94100F3F5A3 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB92B31E2301515500F3F5A3 /* FindWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB92B34B2301515600F3F5A3 /* Build configuration list for PBXNativeTarget "FindWork" */;
+			buildPhases = (
+				A7E5FDC5CE69019345F2A712 /* [CP] Check Pods Manifest.lock */,
+				CB92B31B2301515500F3F5A3 /* Sources */,
+				CB92B31C2301515500F3F5A3 /* Frameworks */,
+				CB92B31D2301515500F3F5A3 /* Resources */,
+				66253CB00D24DEDCC803AD6B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindWork;
+			productName = FindWork;
+			productReference = CB92B31F2301515500F3F5A3 /* FindWork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB92B3362301515600F3F5A3 /* FindWorkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB92B34E2301515600F3F5A3 /* Build configuration list for PBXNativeTarget "FindWorkTests" */;
+			buildPhases = (
+				CB92B3332301515600F3F5A3 /* Sources */,
+				CB92B3342301515600F3F5A3 /* Frameworks */,
+				CB92B3352301515600F3F5A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB92B3392301515600F3F5A3 /* PBXTargetDependency */,
+			);
+			name = FindWorkTests;
+			productName = FindWorkTests;
+			productReference = CB92B3372301515600F3F5A3 /* FindWorkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB92B3412301515600F3F5A3 /* FindWorkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB92B3512301515600F3F5A3 /* Build configuration list for PBXNativeTarget "FindWorkUITests" */;
+			buildPhases = (
+				CB92B33E2301515600F3F5A3 /* Sources */,
+				CB92B33F2301515600F3F5A3 /* Frameworks */,
+				CB92B3402301515600F3F5A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB92B3442301515600F3F5A3 /* PBXTargetDependency */,
+			);
+			name = FindWorkUITests;
+			productName = FindWorkUITests;
+			productReference = CB92B3422301515600F3F5A3 /* FindWorkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB92B3172301515500F3F5A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "姚志远";
+				TargetAttributes = {
+					CB92B31E2301515500F3F5A3 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					CB92B3362301515600F3F5A3 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = CB92B31E2301515500F3F5A3;
+					};
+					CB92B3412301515600F3F5A3 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = CB92B31E2301515500F3F5A3;
+					};
+				};
+			};
+			buildConfigurationList = CB92B31A2301515500F3F5A3 /* Build configuration list for PBXProject "FindWork" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB92B3162301515500F3F5A3;
+			productRefGroup = CB92B3202301515500F3F5A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB92B31E2301515500F3F5A3 /* FindWork */,
+				CB92B3362301515600F3F5A3 /* FindWorkTests */,
+				CB92B3412301515600F3F5A3 /* FindWorkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB92B31D2301515500F3F5A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB92B32F2301515600F3F5A3 /* LaunchScreen.storyboard in Resources */,
+				CB92B32C2301515600F3F5A3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB92B3352301515600F3F5A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB92B3402301515600F3F5A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		66253CB00D24DEDCC803AD6B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindWork/Pods-FindWork-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindWork/Pods-FindWork-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FindWork/Pods-FindWork-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7E5FDC5CE69019345F2A712 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindWork-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB92B31B2301515500F3F5A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB92B3322301515600F3F5A3 /* main.m in Sources */,
+				CB92B3242301515500F3F5A3 /* AppDelegate.m in Sources */,
+				CB92B3632302A94100F3F5A3 /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB92B3332301515600F3F5A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB92B33C2301515600F3F5A3 /* FindWorkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB92B33E2301515600F3F5A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB92B3472301515600F3F5A3 /* FindWorkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB92B3392301515600F3F5A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB92B31E2301515500F3F5A3 /* FindWork */;
+			targetProxy = CB92B3382301515600F3F5A3 /* PBXContainerItemProxy */;
+		};
+		CB92B3442301515600F3F5A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB92B31E2301515500F3F5A3 /* FindWork */;
+			targetProxy = CB92B3432301515600F3F5A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB92B32D2301515600F3F5A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB92B32E2301515600F3F5A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB92B3492301515600F3F5A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB92B34A2301515600F3F5A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB92B34C2301515600F3F5A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B39A41AA5DF79F761653D76 /* Pods-FindWork.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FindWork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = saa.FindWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB92B34D2301515600F3F5A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5828FADE2B18A1DF0E7572A8 /* Pods-FindWork.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FindWork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = saa.FindWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CB92B34F2301515600F3F5A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FindWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = saa.FindWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindWork.app/FindWork";
+			};
+			name = Debug;
+		};
+		CB92B3502301515600F3F5A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FindWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = saa.FindWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindWork.app/FindWork";
+			};
+			name = Release;
+		};
+		CB92B3522301515600F3F5A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FindWorkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = saa.FindWorkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FindWork;
+			};
+			name = Debug;
+		};
+		CB92B3532301515600F3F5A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FindWorkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = saa.FindWorkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FindWork;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB92B31A2301515500F3F5A3 /* Build configuration list for PBXProject "FindWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB92B3492301515600F3F5A3 /* Debug */,
+				CB92B34A2301515600F3F5A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB92B34B2301515600F3F5A3 /* Build configuration list for PBXNativeTarget "FindWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB92B34C2301515600F3F5A3 /* Debug */,
+				CB92B34D2301515600F3F5A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB92B34E2301515600F3F5A3 /* Build configuration list for PBXNativeTarget "FindWorkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB92B34F2301515600F3F5A3 /* Debug */,
+				CB92B3502301515600F3F5A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB92B3512301515600F3F5A3 /* Build configuration list for PBXNativeTarget "FindWorkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB92B3522301515600F3F5A3 /* Debug */,
+				CB92B3532301515600F3F5A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB92B3172301515500F3F5A3 /* Project object */;
+}
